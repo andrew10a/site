@@ -1,0 +1,779 @@
+:root{
+  --toggle-bg: url(../icon/moon.png);
+  --fon-br:url(../img/space.png);
+  --vetca-background: rgba(109, 204, 216, 0.363);
+  --colorwhite:linear-gradient(45deg, #aac8ff 30%, #bea2ff 70%, #e5a2ff );
+  --tenam: drop-shadow(3px 3px 15px rgba(0, 0, 0, 0.349));
+  --borderm: 3px solid #fff;
+  --teamblack: #e0e0e0;
+  --slosewhite:url(../icon/closeblack.png);
+  --otstuupe: 12px 12px 28px #b8b8b8,
+  -12px -12px 28px #ffffff;
+}
+:root[data-theme='dark']{
+  --toggle-bg:url(../icon/sun.png);
+  --fon-br:url(../img/space1.png);
+  --colorwhite:linear-gradient(45deg, #8c8aff 30%, #7c9bff 70%, #73efff );
+  --vetca-background: rgba(255, 255, 255, 0.363);
+  --tenam: drop-shadow(3px 3px 80px rgba(255, 255, 255, 0.178));
+  --borderm: 3px solid rgb(0, 0, 0);
+  --teamblack:#262626;
+  --slosewhite:url(../icon/closewhite.png);
+  --otstuupe: 12px 12px 28px #1f1f1f,
+            -12px -12px 28px #2d2d2d;
+
+}
+body {
+  background: var(--fon-br) no-repeat 0/cover;
+  background-position: center top;
+  position: absolute;
+} 
+head{
+  width: 0px;
+  height: 0px;
+}
+/* МАШТАБИРОВАНИЕ ДЛЯ ПК */
+@media (max-width: 1926px){
+body{
+  height: 3350px;
+ }
+ .topmenu > li > a{
+  font-size: 28px;
+}
+  nav  {
+    left: 1200px;
+    top: -20px;
+    position: absolute;
+    width: 660px;
+  }
+  
+.png{
+  width: 1000px;
+  top: -10px;
+  left: 140px;
+}
+.glavn {
+  font-size:83px;
+   margin: 450px 0 0 -378px;
+}
+
+.vertical{
+  height:3390px;
+} 
+.toggle-theme{
+  width: 54px;
+  height: 54px;
+  left: 0px;
+top: 6px;
+}
+.slider{
+width: 1080px;
+height: 1080px;
+margin: 1600px 0 0 140px ;
+}
+.slide img {
+width:1080px ;
+height: 1080px;
+}
+.navigation{
+left: 450px;
+}
+.ponzag{
+
+margin:1700px 0 0 940px ;
+font-size: 130px;
+}
+.zagalov {
+margin: 400px 0 0 1020px;
+font-size:27px; 
+}
+.close{
+width: 30px;
+height: 30px;
+top:18px;
+left: 1005px;
+}
+.modal-content {
+width: 1055px;
+height: 800px;
+}
+
+
+.musor {
+position: relative;
+margin: 390px 0 0 680px;
+   font-size:51px ;
+ 
+ }
+
+ .qbayt{
+  margin: 200px 0 0 1400px;
+  width: 200px;
+  height: 80px;
+}
+
+.qbayt p{
+padding-left: 28px;
+font-size: 23px;
+
+}
+.anonce{
+ width: 935px;
+ height: 730px;
+ bottom: 35px;
+ left: 35px;
+}
+.tesor{
+left: 30px;
+top: -4px;
+font-size: 39px;
+}
+.teson{
+ top: 10px;
+ left: 28px;
+font-size: 28px;
+}
+.submenu {
+ 
+  width: 225px;
+}
+.submenu a {
+  font-size:20px;
+}
+}
+/* МАШТАБИРОВАНИЕ ДЛЯ НОУТБУКА */
+@media (max-width: 1824px){
+  body{
+    height: 2680px;
+  }
+  .topmenu > li > a{
+    font-size: 20px;
+  }
+    nav  {
+      left: 980px;
+      top: -20px;
+      position: absolute;
+      width: 460px;
+    }
+    
+  .png{
+    width: 800px;
+    top: -10px;
+    left: 130px;
+  }
+  .glavn {
+    font-size:67px;
+     margin: 370px 0 0 -300px;
+  }
+
+  .vertical{
+    height:2699px;
+  } 
+  .toggle-theme{
+    width: 48px;
+    height: 48px;
+    left: 1px;
+  top: 9px;
+}
+.slider{
+  width: 860px;
+  height: 860px;
+  margin: 1300px 0 0 130px ;
+}
+.slide img {
+  width:860px ;
+  height: 860px;
+}
+.navigation{
+  left: 366px;
+}
+.ponzag{
+
+  margin:1380px 0 0 770px ;
+  font-size: 100px;
+}
+.zagalov {
+  margin: 330px 0 0 835px;
+  font-size:21px; 
+}
+.close{
+  width: 25px;
+  height: 25px;
+  top:15px;
+  left: 760px;
+}
+.modal-content {
+  width: 808px;
+  height: 610px;
+  }
+
+
+  .musor {
+  position: relative;
+  margin: 300px 0 0 506px;
+     font-size:40px ;
+   
+   }
+
+   .qbayt{
+    margin: 100px 0 0 1115px;
+    width: 180px;
+    height: 70px;
+}
+.qbayt p{
+  padding-left: 28px;
+  font-size: 20px;
+  
+ }
+ .anonce{
+   width: 705px;
+   height: 545px;
+   bottom: 30px;
+   left: 30px;
+ }
+ .tesor{
+left: 20px;
+top: -7px;
+font-size: 30px;
+ }
+ .teson{
+   top: 10px;
+   left: 20px;
+font-size: 21px;
+ }
+ .submenu {
+ 
+  width: 180px;
+}
+.submenu a {
+  font-size: 16px;
+}
+}
+@media (max-width: 1366px){
+  body{
+    height: 2390px;
+  }
+  head{ 
+    height: 0px;
+    width: 0px
+  }
+  .topmenu > li > a{
+    font-size: 20px;
+  }
+    nav  {
+      left: 980px;
+      top: -20px;
+      position: absolute;
+      width: 460px;
+    }
+    
+  .png{
+    width: 650px;
+    top: -10px;
+    left: 130px;
+  }
+  .glavn {
+    font-size:51px;
+     margin: 280px 0px 0px -225px;
+
+
+  .vertical {
+    height:2410px;
+    left:0px;
+  } 
+  .toggle-theme{
+    width: 37px;
+    height: 37px;
+    margin-left: 1px;
+  top: 0px;
+}
+.slider{
+  width: 860px;
+  height: 860px;
+  margin: 1300px 0 0 130px ;
+}
+.slide img {
+  width:860px ;
+  height: 860px;
+}
+.navigation{
+  left: 366px;
+}
+.ponzag{
+
+  margin:1380px 0 0 770px ;
+  font-size: 100px;
+}
+.zagalov {
+  margin: 330px 0 0 835px;
+  font-size:21px; 
+}
+.close{
+  width: 25px;
+  height: 25px;
+  top:15px;
+  left: 760px;
+}
+.modal-content {
+  width: 808px;
+  height: 610px;
+  }
+
+
+  .musor {
+  position: relative;
+  margin: 300px 0 0 506px;
+     font-size:40px ;
+   
+   }
+
+   .qbayt{
+    margin: 100px 0 0 1115px;
+    width: 180px;
+    height: 70px;
+}
+.qbayt p{
+  padding-left: 28px;
+  font-size: 20px;
+  
+ }
+ .anonce{
+   width: 705px;
+   height: 545px;
+   bottom: 30px;
+   left: 30px;
+ }
+ .tesor{
+left: 20px;
+top: -7px;
+font-size: 30px;
+ }
+ .teson{
+   top: 10px;
+   left: 20px;
+font-size: 21px;
+ }
+ .submenu {
+ 
+  width: 180px;
+}
+.submenu a {
+  font-size: 16px;
+}
+}
+
+    
+.astromm{
+  display: none;
+}
+
+
+
+.ponzag{
+  position: relative;
+  display: inline-block;
+   font-weight: 600; 
+   font-family: verdana;
+   cursor:default;
+  text-transform: uppercase;
+  background: var(--colorwhite);
+ -webkit-text-fill-color: transparent;
+ display: table;
+ -webkit-background-clip: text;
+ filter:var(--tenam);
+}
+.glavn {
+  position: absolute;
+  display: flex;
+  display: inline-block;
+  font-weight: 550;
+  font-family: verdana;
+  cursor:default;
+  text-transform: uppercase;
+  background: var(--colorwhite);
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+ transform: rotate(-90deg);
+ box-shadow : var(--tenam);
+}
+.png{
+  position: absolute;
+  display: inline-block;
+  display: flex;
+}
+.toggle-theme{
+  border: 0;
+  background-color: transparent;
+  background-image: var(--toggle-bg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  transform:rotate(325deg);
+  display: inline-block;
+  display: flex;
+  cursor: pointer;
+  filter: var(--tenam);
+}
+
+
+  .vertical{
+    position: absolute;
+    display: flex;
+    left: 73px;
+    top: -20px;
+    border-left:1px solid #9EC1D4;
+}
+
+.zagalov {
+  position: fixed;
+  position: absolute;
+   font-weight: 600; 
+   font-family: verdana;
+   display: inline-block;
+   cursor:default;
+  text-transform: uppercase;
+  background: var(--colorwhite);
+ -webkit-text-fill-color: transparent;
+ display: table;
+ -webkit-background-clip: text;
+ filter:var(--tenam);
+}
+
+.musor {
+  display: flex;
+  position: relative;
+  display: inline-block;
+  font-weight: 600; 
+  font-family: verdana;
+  cursor:default;
+  text-transform: uppercase;
+  background: var(--colorwhite);
+ -webkit-text-fill-color: transparent;
+ display: table;
+ -webkit-background-clip: text;
+ transform: rotate(90deg);
+ box-shadow: drop-shadow(3px 3px 10px rgba(255, 255, 255, 0.555));
+ 
+} 
+.qbayt p{
+  font-weight: 600; 
+  font-family: verdana;
+  text-transform: uppercase;
+ background: var(--colorwhite);
+ -webkit-text-fill-color: transparent;
+ display: table;
+ -webkit-background-clip: text;
+ cursor: pointer;
+}
+
+.anonce{
+  position: absolute;
+  display: inline-block;
+  border-radius: 25px;
+  background-color:var(--teamblack);
+  box-shadow: var(--otstuupe);
+}
+
+.tesor{
+  position:relative;
+   font-weight: 600; 
+   font-family: verdana;
+   cursor:default;
+  background: var(--colorwhite);
+ -webkit-text-fill-color: transparent;
+ display: table;
+ -webkit-background-clip: text;
+}
+.teson{
+  position:relative;
+   font-weight: 600; 
+   font-family: verdana;
+   cursor:default;
+  background: var(--colorwhite);
+ -webkit-text-fill-color: transparent;
+ display: table;
+ -webkit-background-clip: text;
+}
+
+
+
+
+
+.istoc{
+  position: absolute;
+margin: 1000px 0 0 2000px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* СЛАЙДЕР */
+  .slider{
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    filter: var(--tenam);
+    border-radius: 4px;
+    border:  var(--borderm);
+  }
+  .middle{
+    position: absolute;
+  }
+  .navigation{
+    position: absolute;
+    bottom: 16px;
+    display: flex;
+  }
+  .bar{
+   
+    height:8px ;
+    width:30px ;
+    margin:6px;
+    cursor:pointer ;
+    background-color:#ddd ;
+    opacity: .5;
+    border-radius: 10px;
+    transition: all .4s ease;
+  }
+  .bar:hover{
+    opacity:0.8 ;
+    transform: scale(1.1);
+  }
+  input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+  }
+  .slides{
+   
+    width:400% ;
+    height: 100%;
+    display: flex;
+  }
+  .slide{
+    width:25% ;
+    transition: all.6s ease;
+  }
+ 
+  #r1:checked ~ .s1{
+    margin-left: 0;
+  }
+  
+  #r2:checked ~ .s1{
+    margin-left: -25%;
+  }
+  
+  #r3:checked ~ .s1{
+    margin-left: -50%;
+  }
+  
+  #r4:checked ~ .s1{
+    margin-left: -75%;
+  }
+  /* ВЫПАДАЮЩЕЕ ОКНО */
+  .modal {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    padding-top: 100px;
+    padding-left: 180px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полная высота */
+    overflow:auto; /* Включите прокрутку, если это необходимо */
+    background-color: rgb(0,0,0); /* Цвет запасной вариант  */
+    background-color: rgba(0,0,0,0.4); /*Черный с непрозрачностью */
+  }
+  
+  .modal-content {
+    position: relative;
+    background-color:var(--teamblack);
+    margin: auto;
+    padding:0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    border-radius: 20px;
+    
+    
+  }
+  
+  
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  
+  .close{
+    display: flex;
+  display: inline-block;
+  position: absolute;
+  background-image: var(--slosewhite);
+    color: #e0e0e0;
+    
+  
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  
+  
+  }
+  
+  .modal-header {
+    position: absolute;
+    color: #e0e0e0;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .qbayt{
+  
+    border-radius: 18px;
+    filter:var(--otstuupe);
+    cursor: pointer;
+    background: var(--teamblack);
+    position: absolute;
+    border: 0;
+    
+  }
+  .qbayt:hover{
+    border: 0;
+    opacity:1.1 ;
+    transform: scale(1.1);
+    }
+    
+
+    /* БАР */
+    * {
+      
+      display: inline-block;
+    }
+      header a {
+        display: block;
+        text-decoration: none;
+    }
+      
+      nav {
+        display: table;
+        margin: 10px;
+    }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        
+      }
+      .topmenu:after {
+        content: "";
+        display: table;
+        clear: both;
+      
+    }
+      .topmenu > li {
+        width: 28%;
+        float: left;
+        position: relative;
+        font-family: 'Open Sans', sans-serif;
+        
+        
+    }
+      .topmenu > li > a {
+        text-transform: uppercase;
+        font-weight: bold;
+        text-transform: uppercase;
+        background: var(--colorwhite);
+        -webkit-text-fill-color: transparent;
+        display: table;
+        background: var(--colorwhite);
+        -webkit-background-clip: text;
+        padding: 15px 40px;
+    
+        
+    }
+      .topmenu li a:hover {color: #D5B45B;}
+      
+      .submenu {
+        background: var(--vetca-background);
+        position: absolute;
+        left: 0;
+        top: 100%;
+        z-index: 5;
+        opacity: 0;
+        transform: scaleY(0);
+        transform-origin :0 0;
+        transition: .5s ease-in-out;
+        border-radius: 15px;
+    }
+      .submenu a {
+        color: white;
+        text-align: left;
+        padding: 12px 15px;
+        
+        border-bottom: 1px solid rgba(198, 125, 228, 0.466);
+    }
+      .submenu li:last-child a {border-bottom: none;}
+      .topmenu > li:hover .submenu {
+        opacity: 1;
+        transform: scaleY(1);
+        background: var(--colorwhite);
+    }
